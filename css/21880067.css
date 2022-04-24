@@ -11,8 +11,8 @@ body{
 }
 #header h1 {
     font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
     color: white;
 }
 ul{
@@ -153,9 +153,10 @@ ul li a.active{
     font-weight: bolder;
 }
 .detail-cau3 h2 {
-    font: 45px lighter;
+    font-size: 45px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
 }
-
 
 .pull-right {
     left: unset;
