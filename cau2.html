@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/21880067.css">
+</head>
+
+
+<body>
+    <div id="header">
+        <h3><b>BAI THI CUOI KY MON LAP TRINH WEB 1</b></h3>
+        <h1>DTTX - HK2 - 2020</h1>
+    </div>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">CAU 1</a></li>
+            <li><a href="./cau2.html" class="active">CAU 2</a></li>
+            <li><a href="./cau3.html">CAU 3</a></li>
+        </ul>
+    </div>
+    <div class="wrapper-cau2 container-fluid">
+        <br>
+        <div class="container form">
+            <h5><b>Your message</b></h5>
+            <h2>To Web 1</h2><br>
+            <form action="./xuly.html" method="get">
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" name="yourname" value="" placeholder="Your Name:*" oninput="this.setCustomValidity('')"
+                            oninvalid="this.setCustomValidity('Please enter your name')" required>
+                        <input type="text"  name="youremail" value="" placeholder="Your Email:*"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9]+\.[a-z]{2,3}$" required
+                            oninput="this.setCustomValidity('')"
+                            oninvalid="this.setCustomValidity('Please enter your email address')">
+                        <input type="tel" name="yourphone" value="" placeholder="Your Phone:*" required
+                            oninput="this.setCustomValidity('')"
+                            oninvalid="this.setCustomValidity('Please enter your email phone number')">
+                    </div>
+                    <div class="col-6">
+                        <textarea name="message" id="" cols="30" rows="7" placeholder="Your Message:*" oninput="this.setCustomValidity('')"
+                            oninvalid="this.setCustomValidity('Please enter your email message')" required></textarea>
+                    </div>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <br>
+    </div>
+    <div class="footer">
+        <p>Copyright&copy; by 21880067 - Phạm Xuân Khiêm</p>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then Handlerbars -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/handlebars-v4.7.7.js"></script>
+</body>
+
+</html>

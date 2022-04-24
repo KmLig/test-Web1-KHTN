@@ -1,0 +1,157 @@
+body{
+    text-align: center;
+    background: url('../img/bg.jpg');
+}
+#header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#header h3 {
+    color: #E6A756;
+}
+#header h1 {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    background: rgba(47, 23, 15, 0.9);
+    width: 100%;                      
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    padding: 30px;          
+}
+ul li a{
+    color: white;
+}
+
+ul li a:hover{
+    text-decoration: none;
+}
+
+ul li a.active{
+    color: #E6A756;
+}
+
+.wrapper-index{
+    position: relative;
+    width: 100%;
+    height: 850px;
+}
+
+.main-image{
+    position: relative;
+    margin-top: 65px;
+    margin-left: 420px;
+    width: 1000px;  
+    height: 700px;
+    background: red;      
+}
+
+.main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        
+}
+
+.detail{
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: 60px;
+    left: -350px;
+    background: rgb(255, 255, 255, 0.85);
+    padding: 30px;      
+  }
+.footer{
+  background: rgba(47, 23, 15, 0.9);
+  padding: 30px;
+  justify-items: center;
+}
+.footer p{
+    margin: 0;
+    color: white;
+}
+
+/* cau 2 */
+.wrapper-cau2 {
+    background-color: #E6A756; 
+    margin: 30px auto;         
+}
+
+.wrapper-cau2 h5 {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.wrapper-cau2 h2{
+    font-size: 50px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.form{ 
+    width: 800px;
+    height: 500px;
+    background-color: blanchedalmond;
+    box-shadow: 0 0 0 5px blanchedalmond;
+    border: 5px solid #E6A756;
+    border-radius: 5px;
+    margin: 50px auto;   
+    padding: 15px;
+}
+
+.form input {
+    width: 95%;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+.form textarea {
+    width: 95%;    
+}
+.form button{
+    padding: 20px 25px;
+    background: #E6A756;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+/* cau 3 */
+#wrapper-cau3 .image-cau3 {
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    margin: 200px auto;
+}
+
+.image-cau3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+
+.detail-cau3 {    
+    position: absolute;
+    top: -100px; 
+    left: -80px;   
+    background: rgb(255, 255, 255, 0.85);
+    padding: 30px;   
+}
+
+
+
+.pull-right {
+    left: unset;
+    right: -80px;
+}
