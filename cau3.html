@@ -60,14 +60,16 @@
         {{/each}}        
     </script>
     <script>
+
         function addClassName() {
             const addClass = document.getElementsByClassName('detail-cau3');
             for (let i = 0; i < addClass.length; i++) {
-                if (i %2 == 0) {
+                if (i % 2 === 0) {
                     addClass[i].classList.add("pull-right");
-                    }
+                }
             }     
         }
+
         function loadData(targetId, sourceId) {
             const jsonData = {
                 data: getData()
@@ -78,6 +80,7 @@
             let template = Handlebars.compile(source);
             $(target).html(template(jsonData));
         }
+
         $(document).ready(function () {
             loadData('#wrapper-cau3','#row-template');
             addClassName();

@@ -147,8 +147,14 @@ ul li a.active{
     left: -80px;   
     background: rgb(255, 255, 255, 0.85);
     padding: 30px;   
+    text-transform: uppercase;
 }
-
+.detail-cau3 h4 {
+    font-weight: bolder;
+}
+.detail-cau3 h2 {
+    font: 45px lighter;
+}
 
 
 .pull-right {
